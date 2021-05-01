@@ -23,6 +23,7 @@ public class Staff {
 	public void payday() {
 		double amount;
 		for (int count = 0; count < staffList.length; count++) {
+			System.out.println(staffList[count]);
 			amount = staffList[count].pay();
 			if (amount == 0.0) {
 				System.out.println("Thanks!");

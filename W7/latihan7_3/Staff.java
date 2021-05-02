@@ -10,8 +10,8 @@ public class Staff {
 		staffList[3] = new Hourly("Diane", "678 Fifth Ave.", "555-0690", "958-47-3625", 10.55);
 		staffList[4] = new Volunteer("Norm", "987 Suds Bvld.", "555-8374");
 		staffList[5] = new Volunteer("Cliff", "321 Duds Lane", "555-7282");
-		staffList[6] = new Commision("Ihsan", "123 Polban", "081-2345", "000-00-0000", 6.25, 0.20);
-		staffList[7] = new Commision("Fauzan", "321 Polban", "081-6789", "000-00-1111", 9.75, 0.15);
+		staffList[6] = new Commision("Rijal", "352 Polban", "082-1198", "000-00-0000", 6.25, 0.20);
+		staffList[7] = new Commision("Azmi", "321 Polban", "081-2145", "000-00-1111", 9.75, 0.15);
 		
 		((Executive)staffList[0]).awardBonus(500.00);
 		((Hourly)staffList[3]).addHours(40);
